@@ -3,7 +3,7 @@ import * as React from "react";
 import { render } from "react-dom";
 import useRecorder from "./useRecorder";
 
-export default function App() {
+export default function Home() {
   let [audioURL, isRecording, startRecording, stopRecording] = useRecorder() as any;
   return (
     <div className="App">
