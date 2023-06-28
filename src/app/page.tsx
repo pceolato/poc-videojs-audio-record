@@ -1,7 +1,7 @@
 'use client'
 import * as React from "react";
 import { render } from "react-dom";
-import useRecorder from "./useRecorder";
+import useRecorder from "./components/useRecorder";
 
 export default function Home() {
   let [audioURL, isRecording, startRecording, stopRecording] = useRecorder() as any;
